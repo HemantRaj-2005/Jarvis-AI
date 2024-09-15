@@ -7,6 +7,7 @@ def speak(text):
     engine.setProperty('voice', voices[1].id)
     engine.say(text)
     engine.runAndWait()
-
-
+    
+text = "Hello I am Jarvis AI"
+speak(text)
 
