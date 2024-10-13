@@ -20,7 +20,3 @@ def openweb(webname):
         
     if urls_to_open:
         print("opening....")
-
-while True:
-    web_input = input("web name: ") 
-    openweb(web_input)

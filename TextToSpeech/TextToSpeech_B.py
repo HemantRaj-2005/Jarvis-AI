@@ -20,6 +20,7 @@ chrome_service = Service(ChromeDriverManager().install())
 
 driver = webdriver.Chrome(service=chrome_service,options=chrome_options)
 
+
 driver.get("https://tts.5e7en.me/")
 
 def speak(text):
@@ -42,6 +43,5 @@ def speak(text):
     except Exception as E:
         print(E)
         
-speak("hello")
-speak("hey there I am Jarvis")
+speak("hello, sir")
 speak("Allow me to introduce myself, I am jarvis")
